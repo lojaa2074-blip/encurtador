@@ -1,0 +1,22 @@
+# =====================================================
+# VARIÁVEIS DE AMBIENTE — Cole no Netlify
+# Site settings → Environment variables → Add variable
+# =====================================================
+
+# VARIÁVEL 1
+Nome:  FIREBASE_CLIENT_EMAIL
+Valor: firebase-adminsdk-fbsvc@encurtador-957e6.iam.gserviceaccount.com
+
+# VARIÁVEL 2
+Nome:  FIREBASE_PRIVATE_KEY
+Valor: (cole abaixo, com as aspas e tudo — copie exatamente do seu arquivo JSON)
+
+"-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC6McDvPcx3FhnM\nIgBkPXSKTzdyap4dH6ei8xBFrdIibTvZtG3nzLjIruJkUkCAFobSKAiQjiEpY+wD\nMSDmaXOwqkrY6z8wAQ8S6Z1mF89+oqyM0g+d1STDMDrenH+sNv0WUrYv39+jLvq4\nkDedMET5LVdCp5m/XKzGe2soAcGJKGhz7eocwAoNQ2C7PTVqfP7VUT8lFffYSjXS\ncsyhvAm8Tss6b1DlLAaQmyJZt9K48VvHG7290b0PGoX3hx56GyryTGnuwLeqh8fn\nzDaW92lOCP7gsJrv/i0ftz2B3LiVVuaUO4Aafq2I4gUt42yrw41FG7LaljN4leTE\n1pwK+48hAgMBAAECggEADYcW3urtA4vyBOBFigLjCDd4LlJruW721YJ2YLGfzkuE\naS1QPOKlXENEhIhrUkMQuY0aDjKdWy381ECKBOONebztojP5S8oP585cVrINK8Sy\n56pNYyi8uoezB0B0kDUQj0IkJXdM/sSnh6hGuh9rK3VtXRTjOUGI9gS6hNYX0xii\nP5xMH1CuW10Gl5M+LpO6hmUgs+qCMFqRXcAJVA+/RmLUdEMrwe5OHJjPkIsSvoZj\n7BGk1lTRA1GHdPaHkWbDAbUqrFJYS7fD1kXmU29IC2rweEJZiH2IM6mfbKLdfjma\nmq6QNJpXfNUWJ7CP51KtDqGB/dnB+vRDTsLMcbJxpwKBgQDd0Um+rSnusb/E6SqG\nCqYjE5joNv5tUzDp5t3lnplTYrZCy5qGePC1oqTg4qxyOdkgGTNI5eMEA71b00vo\nX421ECjcKpWc6gF4953X8rAClKnxEpZ24IWu9h3ezFAAK//CcvPiHi9ELN/vcIwk\nOj2sIlQaa0ujWEMGWpHBOyXhtwKBgQDW4yEiBWKQdE5NsfwCbGXrozNSHaKmuhHr\nQuaKJ9NrGWwUBxXzygVHy3nju/12nYSm9/33oIv3N0Krtu28JHs2XLZ4zHlaPqBM\n8mZOcMsnB335f4/Q12roLP7mUP6PVJvjaLJtL3ARlFKSN3SbRiF0I3mhVyM3Z0DD\nUQVSJH415wKBgQCE9hLyTPI5tipxaiKnPnLfy7t4Vp6kAZ3sVwrjvPHDXgRKfake\nuhfviJK0iqs7vRk9eF2ZcNNncKZtCHcTz1MuGYWkk5IjANHpJORksYB3y40iiDXR\nBDyd58F375h0wesJL8ao39cNUqjY6enXPWICcIFhZLduLlXe1SNRZJcMeQKBgEa5\nprQN1az5urPzuqAJkVoG8uM6AciiQTePY1VhWkJLsbi9xEni2e4RWGLOAtRBb+GM\nibgwzSBmvbjKkmB0GWGBDkWf9uju58+rkGSM1zBXVO0DQRBZdkRIWvTu/3mpPU2R\nrfglvtrqWGrreaOJZ4VUD7o8dcjMYRJn3jp07F1NAoGBAJyYbfapcQN3v/CDxrsB\nGatWkWitNciF3a18pP+ArmIUamScOkbFCg/lTSIb+zg4bJLjK35kFr1s3kQYowOf\n/XzhSMhcYlB3CvRCD9GA6Vi77Vgv+2Zh/F6UoxclhJsjl8qAlkaIWWupIu9CEK29\n2NVDaofBM9BSlPzLxlnpBr7Z\n-----END PRIVATE KEY-----\n"
+
+# =====================================================
+# PRÓXIMOS PASSOS:
+# 1. Abra o arquivo JSON baixado do Firebase
+# 2. Copie o valor exato de "client_email" para FIREBASE_CLIENT_EMAIL
+# 3. Cole as variáveis no Netlify → Site settings → Environment variables
+# 4. Faça um novo deploy
+# =====================================================

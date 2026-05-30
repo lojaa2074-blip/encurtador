@@ -1,0 +1,8 @@
+{
+  "name": "encurtador-links",
+  "version": "1.0.0",
+  "description": "Encurtador de links com Firebase + Netlify",
+  "dependencies": {
+    "firebase-admin": "^12.0.0"
+  }
+}
